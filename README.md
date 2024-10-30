@@ -1,2 +1,2 @@
 # validacionDNI
-Probar [aqui](/validacionDNI/index.html)
+Probar [aqui](Jorgerdzz.github.io/validacionDNI/index.html)
