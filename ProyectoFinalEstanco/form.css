@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@font-face {
+    font-family: arialBlack;
+    src: url(5633-font.ttf);
+}
+#headerform{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 10px 10px 0 rgb(119, 31, 31);
+    position: fixed;
+    align-items: center;
+    background-color: white;
+}
+
+#navform{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+    padding: 1em;
+}
+#navform a{
+    text-decoration: none;
+    color: rgb(119, 31, 31);
+    margin: 3em;
+    font-size: 1em;
+    font-family: arialBlack;
+}
+.icon-cart{
+    font-size: 1.5em;
+    color: rgb(119, 31, 31);
+
+}
+#mainform{
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(119, 31, 31);
+    justify-content: center;
+
+}
+#formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1.5em;
+    margin-top: 15em;
+    width: 90%;
+    box-shadow: 0 25px 20px 0px rgb(119, 31, 31);
+
+}
+
+#productosAniadidos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#productosAniadidos h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+#productosAniadidos ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+#totales{
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-left: solid rgb(119, 31, 31) ;
+}
+#totales h5, h4{
+    width: 100%;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+#productosAniadidos ul li{
+    text-decoration: none;
+    font-size: 2em;
+    width: 100%;
+    margin-left: 2em;
+}
+
+#formulario h2{
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    padding: 2em;
+}
+form{
+    width: 70%;
+}
+.caja{
+    background-color: rgba(245, 245, 245, 0.911);
+    border: none;
+    box-shadow: 0 10px 10px 0px rgb(119, 31, 31);
+    font-size: 1.5em;
+    margin: 1em;
+    padding: .5em;
+    text-align: center;
+}
+.name{
+    width: 49%;
+}
+.tlf{
+    width: 31%;
+}
+.mail{
+    width: 90%;
+}
+.dir{
+    width: 60%;
+}
+.cp{
+    width: 20%;
+}
+.fecha{
+    width: 40%;
+}
+.hora{
+    width: 40%;
+}
+#totalC{
+    display: flex;
+}
+#totalC h4{
+    width: 30%;
+}
+#total2{
+    width: 50%;
+}
+.enviar{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    background-color: rgb(119, 31, 31);
+    color: #F4BD48;
+    border-radius: 4em;
+}
+.enviar:hover{
+    background-color: #F4BD48;
+    color: black;
+}
+#env{
+    display: flex;
+    justify-content: center;
+}
+#hablamos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 25%;
+    border-left: solid rgb(119, 31, 31) ;
+    padding: 1.5em;
+}
+#hablamos h2{
+    padding: .2em;
+}
+#hablamos h4{
+    width: 100%;
+    text-align: center;
+}
+#hablamos span{
+    color: #F4BD48;
+}
+@media (max-width: 790px){
+    #headerform{
+        
+        justify-content: center;
+        position: relative;
+        align-items: center;
+    }
+    #headerform img{
+        width: 100%;
+    }
+    #navform{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 10px 0px 10px 0 rgb(119, 31, 31);
+    }
+    #navform a{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    #productosAniadidos{
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    #productosAniadidos ul{
+       
+        width: 100%;
+    }
+    #productosAniadidos ul li{
+       
+        width: 100%;
+    }
+
+    #totales{
+        margin-top: 1em;
+        padding: 1em;
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        border-left: none;
+        border-top: solid rgb(119, 31, 31) ;
+    }
+    #formulario h2{
+        padding: 1em;
+    }
+    form{
+        width: 100%;
+        text-align: center;
+    }
+    .caja{
+        width: 67%;
+        margin: .4em;
+    }
+    #hablamos{
+        padding: 1.5em;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        border-right: solid rgb(119, 31, 31);
+    }
+    #hablamos h2{
+        padding: .2em;
+    }
+    #hablamos h4{
+        text-align: center;
+    }
+}

@@ -1,0 +1,236 @@
+*{
+    margin: 0em;
+    padding: 0em;
+}
+@font-face {
+    font-family: arialBlack;
+    src: url(5633-font.ttf);
+}
+
+
+body{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 10px 10px 0 rgb(119, 31, 31);
+    position: fixed;
+    align-items: center;
+    background-color: white;
+}
+
+#navHeader{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+    padding: 1em;
+}
+#navHeader a{
+    text-decoration: none;
+    color: rgb(119, 31, 31);
+    margin: 3em;
+    font-size: 1em;
+    font-family: arialBlack;
+}
+.icon-cart{
+    font-size: 1.5em;
+    color: rgb(119, 31, 31);
+}
+#cuentaCarrito{
+    color: rgb(119, 31, 31);
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15em;
+    padding: 1em;
+}
+#intro{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    padding: 1em;
+    box-shadow: 0 10px 10px 0 rgb(119, 31, 31);
+}
+#intro h2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wraps;
+    align-items: center;
+    justify-content: left;
+    font-family: arialBlack;
+    color: rgb(119, 31, 31);
+    padding: 1em;
+}
+#intro p{
+    padding: 1em;
+    width: 30%;
+    justify-content: center;
+}
+#productos{
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    box-shadow: 10px 0px 10px 0 rgb(119, 31, 31);
+
+}
+#productos h2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wraps;
+    align-items: center;
+    justify-content: left;
+    font-family: arialBlack;
+    color: rgb(119, 31, 31);
+    padding: 1em;
+}
+#productos div{
+    width: 22%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 10px 0 rgb(119, 31, 31);
+    padding: 1em;
+
+}
+#productos div h4{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+}
+.aniadirCarro{
+    text-decoration: none;
+    color: white;
+    background-color:rgb(119, 31, 31);
+    border:rgb(119, 31, 31) solid ;
+    border-radius:  4em ;
+    padding: 0.2em;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 0.5em;
+}
+article{
+    display: none;
+}
+#productos div:hover{
+
+    article{
+        display: block;
+    }
+
+}
+article p{
+    padding: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(233, 228, 228);
+}
+.botonAniadir{
+    background-color: rgb(119, 31, 31);
+    color: white;
+    border: solid;
+    border-radius: 4em;
+    padding: 0.5em;
+}
+footer{
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: solid;
+    background-color: rgb(119, 31, 31) ;
+}
+#hablamos{
+    padding: 1em;
+    align-items: center;
+    width: 30%;
+}
+#hablamos h1{
+    font-family: arialBlack;
+    color: white;
+    width: 100%;
+    justify-content: center;
+}
+#infoContacto{
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    align-items: center;
+}
+#infoContacto p{
+    width: 100%;
+    color: white;
+    justify-content: right;
+    padding: .2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#horario{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#horario h1{
+    font-family: arialBlack;
+}
+
+@media (max-width: 790px){
+
+header{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+header img{
+    width: 100%;
+}
+#navHeader{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 0px 10px 0 rgb(119, 31, 31);
+    
+} 
+#navHeader a{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+#intro p{
+    width: 100%;
+}
+#productos div{
+    width: 100%;
+}
+footer div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#hablamos{width: 100%;}
+#infoContacto{
+    width: 100%;
+}
+#horario{width: 100%; justify-content: center;}
+
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="headerform">
+        <img src="logotabacos.png" alt="" width="550" height="120">
+        <nav id="navform">
+            <a href="index.html">Inicio</a>
+            <a href="index.html">Productos</a>
+            <button><span class="icon-cart"></span><span id="cuentaCarrito"> 0</span></button>
+        </nav>
+    </header>
+    <main id="mainform">
+            
+
+        <section id="formulario">
+            <div id="productosAniadidos">
+
+                <h1>PRODUCTOS EN EL CARRO</h1>
+                <ul id="productosCarro" >
+                    
+                </ul>
+                <div id="totales">
+                    <h5 id="subtotal"></h5>
+                    <h5 id="iva"></h5>
+                    <h5 id="total"></h5>  
+                </div>
+    
+            </div>
+            <h2>REALIZAR PEDIDO</h2>
+            <form action="form.php" method="post">
+                <label> <input class="caja name" type="text" name="nombre" placeholder="Nombre completo"></label>
+                <label> <input class="caja tlf" type="text" name="telefono" placeholder="Telefono"></label>
+                <br>
+                <label> <input class="caja mail" type="text" name="correo" placeholder="Correo electronico"></label>
+                <br>
+                <label> <input class="caja dir" type="text" name="direccion" placeholder="Direccion"></label>
+                <label> <input class="caja cp" type="text" name="cp" placeholder="Codigo postal"></label>
+                <div id="totalC">
+                    <label> <h4>Total:</h4><input id="total2" class="caja total" type="text" name="totalCompra"  disabled></label>
+                </div>
+                <br>
+                <div id="env">
+                     <input  class="caja enviar" type="submit" value="Comprar">
+                </div>
+            </form>
+            <div id="hablamos">
+                <h2 >¿HABLAMOS?</h2>
+                <br> 
+                <p>
+                    <h4>Telefono: <span>+(34) 913 65 06 92</span></h4>
+                    <h4>Mail: <span>info@estanco.com</span></h4>
+                    <h4>Direccion: Calle Real Nº7 - 28400</h4>
+                    <h4>Collado Villalba</h4>
+                    <br>
+                    <h4><span>ACCESO MINUSVALIDOS</span></h4>
+                    <h4>Horario</h4>
+                    <br>
+                    <h4>De lunes a viernes: 09:00 a 20:30</h4>
+                    <h4>Sabados y domingos: 09:30 a 14:00</h4>
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="form.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logotabacos.png" alt="" width="550" height="120">
+        
+        <nav id="navHeader">
+            <a href="#intro">Inicio</a>
+            <a href="#productos">Productos</a>            
+            <button onclick="procederCompra()"><span class="icon-cart"> </span><span id="cuentaCarrito">    0</span></button>
+        </nav>
+    </header>
+    <main>
+
+        <div id="intro">
+            <h2>INTRODUCCION</h2>
+            <p>El estanco es una institución de monopolio por 
+                parte de un estado de la producción, distribución, 
+                importación y venta de un bien. El término se origina en España, extendiéndose de ahí al 
+                resto de países de habla hispana. Actualmente, los estancos más comunes son los del tabaco, 
+                sellos postales y, en algunos países, licores espirituosos o cerveza. Los estancos españoles 
+                de tabacos tienen cerca de 400 años de historia, jugando un importante
+                rol en la recaudación de impuestos para el estado mediante la venta de las labores del tabaco.</p>
+                
+                <p>En España había dos estancos mayores: sal y tabaco, y varios estancos menores: aguardiente, salitre, azufre,
+                    pólvora, plomo, antimonio, mercurio, bermellón, goma laca, juegos de naipes y papel sellado. Uno de los estancos
+                    más antiguos (que al parecer data del siglo xiv), es el de la sal del reino de Aragón, que regulaba la venta y 
+                    no permitía la importación. En 1543 se crea el de barajas, no solo a efectos fiscales, sino para garantizar que 
+                    la impresión fuera correctapara evitar que los jugadores hicieran trampas.
+                </p>
+                <p>El monopolio de expendedurías de tabaco y timbre mueve en España un negocio con un volumen de 
+                    12.500 millones de € al año según los datos del Comisionado para el Mercado de Tabacos. De estos 
+                    12.500 millones de €, el Estado español se beneficia de 9.400 millones de € que van a parar íntegramente
+                    a la hacienda pública, convirtiendo así al monopolio del Estado en un medio imprescindible.
+                    
+                    No obstante, esta no es la única función de los estancos. En la actualidad son un valioso aliado de la 
+                    lucha contra el tabaquismo.</p>
+                </div>
+                <div id="productos">
+                    <h2>PRODUCTOS</h2>
+                    <div id="tabaco">
+                        
+                        <img src="tabaco.png" alt="" width="250" height="250">
+                <h4>TABACO  5,50€ </h4>
+                <button class="botonAniadir" onclick="aniadirAlCarro('Tabaco', 5.5)">Añadir al Carro</button>
+                
+                <article >
+                    <P>El cigarrillo (también llamado cigarro, y en España llamados pitillo) 
+                        es uno de los formatos más populares para el consumo de tabaco. Un cigarrillo 
+                        es una planta seca normalmente de tabaco picado envuelto por una hoja delgada 
+                        de papel en forma de cilindro. Comúnmente presenta integrado un filtro para reducir 
+                        los daños a la salud, pese a que se ha demostrado que este casi no reduce los daños 
+                        del cigarrillo.</P>
+                    </article>
+                </div>
+                <div id="cachimbas">
+                    
+                    <img src="cachimba.png" alt="" width="250" height="250">
+                    <h4>CACHIMBA 28,75€  </h4>
+                    <button class="botonAniadir" onclick="aniadirAlCarro('Cachimba', 28.75)">Añadir al Carro</button>
+                    <article>
+                        <p> El narguile o narguil​ en inglés conocida como shisha, au shisha, o 
+                            también hookah, huka, pipa de agua, pipa oriental o cachimba, es un dispositivo 
+                            que se emplea para fumar tabaco de distintos sabores. La shisha/hookah es de origen 
+                            persa, pero desde los primeros años del siglo xxi se ha ido implantando en países de
+                            la Unión Europea y América, ganando cierta popularidad entre un público de variada 
+                            edad</p>
+                        </article>
+                    </div>
+                    <div id="alcohol">
+                        
+                        <img src="alcohol.png" alt="" width="250" height="250">
+                        <h4>ALCOHOL  14,99€  </h4>
+                        <button class="botonAniadir" onclick="aniadirAlCarro('Alcohol', 14.99)">Añadir al Carro</button>
+                        <article>
+                            <p>
+                                Las bebidas alcohólicas son aquellas bebidas que contienen etanol (alcohol etílico)
+                                en su composición. Las bebidas alcohólicas desempeñan un papel social importante en
+                                muchas culturas del mundo, debido a su efecto de droga recreativa depresora. 
+                                La mayoría de los países tienen leyes que regulan la producción, venta y consumo de
+                                estas bebidas. Una de ellas es que, por lo general, se restringe su venta y consumo
+                                a menores de edad.
+                            </p>
+                        </article>
+                    </div>
+                    <div id="vapes">
+                        
+                        <img src="vape.png" alt="" width="250" height="250">
+                        <h4>VAPES  12,75€  </h4>
+                        <button class="botonAniadir" onclick="aniadirAlCarro('Vape', 12.75)">Añadir al Carro</button>
+                <article>
+                    <p>
+                        El cigarrillo electrónico (también, cigarro electrónico, en inglés «e-Cigarette», «vaporizador»,
+                        «vapeador», «vape») es un sistema electrónico inhalador diseñado en su origen para simular el consumo
+                        de tabaco sin quemarlo directamente, diferenciándose del cigarrillo tradicional. Estos dispositivos 
+                        utilizan una batería para calentar y vaporizar una solución líquida que el usuario inhala en forma 
+                        de aerosol.
+                    </p>
+                </article>
+            </div>
+            
+        </div>
+        <footer>
+            <div id="hablamos">
+                <h1>¿HABLAMOS?</h1>
+            </div>
+            <div id="infoContacto">
+                <p><span class="icon-phone"></span> : +(34) 913 65 06 92</p>
+                <p><span class="icon-mail"></span> : info@estanco.es</p>
+                <p><span class="icon-location2"></span> : Calle Real Nº7 - 28400
+                    Collado Villalba
+                </p>
+            </div>
+            <div id="horario">
+                <h1>HORARIO</h1>
+                <h3>De lunes a viernes: 09:00 a 20:30</h3>
+                <h3>Sabados y domingos: 09:30 a 14:00</h3>
+            </div>
+        </footer>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
